@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Twitter, Instagram, Facebook } from "lucide-react";
+import { Mail, MessageCircle, Share2 } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -15,13 +15,13 @@ export default function Footer() {
             </p>
             <div className="flex gap-4">
               <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-gray-400 hover:bg-teal-500/20 hover:text-teal-400 transition-colors">
-                <Twitter size={20} />
+                <Mail size={20} />
               </a>
               <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-gray-400 hover:bg-teal-500/20 hover:text-teal-400 transition-colors">
-                <Instagram size={20} />
+                <MessageCircle size={20} />
               </a>
               <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-gray-400 hover:bg-teal-500/20 hover:text-teal-400 transition-colors">
-                <Facebook size={20} />
+                <Share2 size={20} />
               </a>
             </div>
           </div>
